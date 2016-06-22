@@ -8,3 +8,11 @@ def add(x, y):
 	return x + y
 
 print(add(2, 2))
+
+@off_by_one
+@off_by_one
+@off_by_one
+def add2(x, y):
+	return x + y
+
+print(add2(2, 2))
