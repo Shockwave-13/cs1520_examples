@@ -21,7 +21,7 @@ function makePost() {
 	httpRequest.send(data);
 }
 
-function alertResult() {
+function alertResult(httpRequest) {
 	if (httpRequest.readyState === XMLHttpRequest.DONE) {
 		if (httpRequest.status === 200) {
 			alert("Value sent to server!");
